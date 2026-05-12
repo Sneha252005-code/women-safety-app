@@ -6,7 +6,7 @@ async function sendAlert() {
 
     try {
 
-        const response = await fetch("http://localhost:5000/alert", {
+        const response = await fetch("https://women-safety-app-37zb.onrender.com/alert", {
 
             method: "POST",
 
@@ -58,7 +58,7 @@ if (registerForm) {
 
         try {
 
-            const response = await fetch("http://localhost:5000/register", {
+            const response = await fetch("https://women-safety-app-37zb.onrender.com/register", {
 
                 method: "POST",
 
