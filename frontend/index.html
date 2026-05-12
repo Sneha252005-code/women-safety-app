@@ -1,60 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Women Safety Alert System</title>
 
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
-    <header>
-        <h1>🚨 Women Safety Emergency Alert System</h1>
+<header>
 
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="login.html">Login</a>
-            <a href="register.html">Register</a>
-            <a href="dashboard.html">Dashboard</a>
-        </nav>
-    </header>
+    <h1>🚨 Women Safety Emergency Alert System</h1>
 
-    <section class="hero">
+    <nav>
 
-        <h2>Your Safety Is Our Priority</h2>
+        <a href="index.html">Home</a>
 
-        <p>
-            Quick emergency alert support system for women safety.
-        </p>
+        <a href="login.html">Login</a>
 
-        <button class="sos-btn" onclick="sendAlert()">
-            🚨 SOS ALERT
-        </button>
+        <a href="register.html">Register</a>
 
-    </section>
+        <a href="dashboard.html">Dashboard</a>
 
-    <section class="features">
+    </nav>
 
-        <div class="card">
-            <h3>📍 Live Location</h3>
-            <p>Share current location during emergencies.</p>
-        </div>
+</header>
 
-        <div class="card">
-            <h3>📞 Emergency Contacts</h3>
-            <p>Quickly contact trusted people.</p>
-        </div>
+<section class="hero">
 
-        <div class="card">
-            <h3>⚡ Instant Alert</h3>
-            <p>Send emergency alerts instantly.</p>
-        </div>
+    <h2>Your Safety Is Our Priority</h2>
 
-    </section>
+    <p>
+        Quick emergency alert support system for women safety.
+    </p>
+
+    <button class="sos-btn" onclick="sendAlert()">
+
+        🚨 SOS ALERT
+
+    </button>
+
+</section>
+
+<section class="features">
+
+    <div class="card" onclick="showLocation()">
+
+        <h3>📍 Live Location</h3>
+
+        <p>Share current location during emergencies.</p>
+
+    </div>
+
+    <div class="card" onclick="emergencyContacts()">
+
+        <h3>📞 Emergency Contacts</h3>
+
+        <p>Quickly contact trusted people.</p>
+
+    </div>
+
+    <div class="card" onclick="instantAlert()">
+
+        <h3>⚡ Instant Alert</h3>
+
+        <p>Send emergency alerts instantly.</p>
+
+    </div>
+
+</section>
 
 <script src="script.js"></script>
 
 </body>
+
 </html>
