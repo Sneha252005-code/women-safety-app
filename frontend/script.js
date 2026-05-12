@@ -124,3 +124,24 @@ if (loginForm) {
     });
 
 }
+/* =========================
+   FEATURE CARDS
+========================= */
+
+function showLocation() {
+
+    alert("📍 Live Location Shared");
+
+}
+
+function emergencyContacts() {
+
+    alert("📞 Emergency Contacts Opened");
+
+}
+
+function instantAlert() {
+
+    alert("⚡ Instant Emergency Alert Sent");
+
+}
